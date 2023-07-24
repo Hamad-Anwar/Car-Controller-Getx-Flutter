@@ -46,7 +46,7 @@ class GetClimate extends GetxController{
   }
   setValue(double val){
     value.value=val;
-    if(value<20){
+    if(value<=20){
       ac.value=true;
     }else{
       ac.value=false;

@@ -1,5 +1,5 @@
 import 'package:car_controller/Services/Get/get_climate.dart';
-import 'package:car_controller/widget/text.dart';
+import 'package:car_controller/widget/text_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';

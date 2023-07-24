@@ -1,5 +1,5 @@
 import 'package:car_controller/Services/Get/get_car.dart';
-import 'package:car_controller/widget/text.dart';
+import 'package:car_controller/widget/text_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
