@@ -91,7 +91,7 @@ class Car extends StatelessWidget {
                         height: 20,
                       ),
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Obx(
                             () => carParts("Engine", controller.engin.value,
@@ -107,7 +107,7 @@ class Car extends StatelessWidget {
                         height: 10,
                       ),
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Obx(
                             () => carParts("Trunk", controller.trunk.value,
