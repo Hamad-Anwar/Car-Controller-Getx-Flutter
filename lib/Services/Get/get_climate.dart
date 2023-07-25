@@ -54,7 +54,7 @@ class GetClimate extends GetxController{
 
   }
   setAc(){
-    ac.value=!ac.value;
+    ac.toggle();
   }
 
 }
