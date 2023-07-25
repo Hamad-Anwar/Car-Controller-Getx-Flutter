@@ -104,6 +104,7 @@ class Car extends StatelessWidget {
                           )
                         ],
                       ),
+
                       const SizedBox(
                         height: 10,
                       ),
